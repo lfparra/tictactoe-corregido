@@ -1,85 +1,10 @@
-body {
-  margin: 0;
-  background-color: #9c97974f;
+.table {
+  background-color: #666;
+}
+.table tr td {
+  width: 150px;
+  height: 150px;
+  font-size: 90px;
   text-align: center;
-  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
-}
-.container {
-  margin: auto;
-}
-
-.elijetuArma {
-  width: 500px;
-  height: 250px;
-  background-color: #242323bb;;
-  color: white;
-  margin: 50px auto;
-  /* display: none; */
-  flex-wrap: wrap;
-  justify-content: space-between;
-
-}
-input {
-  width: 43%;
-  height: 40px;
-  margin: 25px 10px;
-}
-button {
-  width: 30%;
-  height: 75px;
-  margin: 10px 40px;
-  font-size: 35px;
-  font-weight: bold;
-  background-color:#9c97974f; ;
-  
-}
-
-#equis {
-  color: rgb(235, 235, 61);
-}
-#cero {
-  color: rgb(48, 84, 247);
-}
-.tablero {
-  margin: 15px auto 0px;
-  width: 600px;
-  height: 500px;
-  border: 1px solid gray;
-  display: none;
-  display: flex;
-  flex-wrap: wrap;
-  color: white;
-  background-color: black;
-}
-
-.tablero .cuadrante {
-  width: 33.33%;
-  height: 33.33%;
   border: 1px solid white;
-  font-size: 95px;
-  
-}
-
-.cuadrante .far, .fas {
-  vertical-align: middle;
-}
-
-.jugadores {
-  margin: 15px;
-  text-align: center;
-  vertical-align: middle;
-}
-
-.jugadores > .far {
-  font-size: 25px;
-  margin: 10px;
-  font-weight: 600;
-  vertical-align: middle;
-}
-
-.jugadores > .fas {
-  font-size: 25px;
-  margin: 10px;
-  font-weight: 600;
-  vertical-align: middle;
 }
